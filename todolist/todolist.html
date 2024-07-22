@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+ <html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To Do List</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <div class="todolist">
+            <h1>ToDo List</h1>
+            <h5 id="alert"></h5>
+            <div class="inputitem">
+                <input id="task-text" type="text" placeholder="Enter Task"> <button id="addButton" onclick="CreateToDoItem();">Add Task</button>
+            </div>
+            <ul id="task-list" class="task-list">
+            </ul>
+        </div>
+        <script src="scripts/main.js"></script> <!-- specifying the javascript that will be applied to the page same as link tag for css -->
+    </body>
+ </html>
